@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54206195}
   - component: {fileID: 54206197}
+  - component: {fileID: 54206198}
   m_Layer: 0
   m_Name: LegZone
   m_TagString: Untagged
@@ -183,6 +184,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.18, y: 2.43}
   m_EdgeRadius: 0
+--- !u!114 &54206198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54206194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc682052b507e642ad1dcb60c1803fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &55619813
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575212170}
   - component: {fileID: 575212172}
+  - component: {fileID: 575212173}
   m_Layer: 0
   m_Name: "\u0421hestZone"
   m_TagString: Untagged
@@ -404,6 +418,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.01
+--- !u!114 &575212173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575212169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc682052b507e642ad1dcb60c1803fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &601755900
 GameObject:
   m_ObjectHideFlags: 0
