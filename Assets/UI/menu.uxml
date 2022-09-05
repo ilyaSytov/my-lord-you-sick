@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="basic-container" style="flex-grow: 1; align-items: flex-start; justify-content: center; width: 100%; height: 100%; -unity-font: url(&apos;project://database/Assets/Fonts/GARA.TTF?fileID=12800000&amp;guid=759ba30c13ee5864ba2e9865275bf67f&amp;type=3#GARA&apos;); margin-left: 120px;">
+        <ui:VisualElement name="container" style="width: 30%; height: 55%; justify-content: flex-start; align-items: flex-start; margin-top: 300px; flex-shrink: 0;">
+            <ui:VisualElement name="logo-container" style="width: 505px; height: 192px; justify-content: flex-start; align-items: flex-start; margin-top: 0; flex-shrink: 0; background-image: url(&apos;project://database/Assets/Sprites/My%20lord,%20you%20sick!.png?fileID=2800000&amp;guid=5e8541b5d047b4742ae12ec4ba4c51d5&amp;type=3#My lord, you sick!&apos;); bottom: 260px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

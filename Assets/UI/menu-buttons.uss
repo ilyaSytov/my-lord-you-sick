@@ -1,0 +1,53 @@
+.menu-button {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 0;
+    -unity-font: url('project://database/Assets/Fonts/GARA.TTF?fileID=12800000&guid=759ba30c13ee5864ba2e9865275bf67f&type=3#GARA');
+    -unity-font-style: normal;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out-back;
+    -unity-text-align: middle-center;
+    color: rgba(210, 210, 210, 255);
+    background-image: url('project://database/Assets/Sprites/Button-sprite-hover.png?fileID=2800000&guid=dda161352fc5aae46b92b8458b5de7ad&type=3#Button-sprite-hover');
+    -unity-slice-left: 24;
+    -unity-slice-top: 14;
+    -unity-slice-right: 24;
+    -unity-slice-bottom: 14;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    padding-left: 70px;
+    margin-left: 0;
+}
+
+.menu-button:hover {
+    background-image: url('project://database/Assets/Sprites/Button-sprite-hover.png?fileID=2800000&guid=dda161352fc5aae46b92b8458b5de7ad&type=3#Button-sprite-hover');
+    width: 110%;
+    height: 100%;
+    -unity-text-align: middle-center;
+    -unity-slice-left: 24;
+    -unity-slice-top: 14;
+    -unity-slice-right: 24;
+    -unity-slice-bottom: 14;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-grow: 0;
+    font-size: 45px;
+    color: rgba(210, 210, 210, 255);
+    flex-shrink: 0;
+    transition-delay: 0s;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 70px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
